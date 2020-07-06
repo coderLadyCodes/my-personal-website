@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Parisienne&family=Poiret+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*
+MOBILE FIRST !
+*/
+
+body{
+    font-family: 'Poiret One', cursive; 
+    color:rgb(252, 6, 129);
+}
+
+header{
+    background-image: url(pink.jpg);
+    background-size: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;   
+}
+
+
+nav li{
+    display:inline-block;
+    list-style:none;
+    font-size:0.5rem;
+    padding:0.5rem;
+    transition: 1s ease ;
+}
+
+
+nav li:hover{
+    color:white;  
+}
+
+h1{
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+h1 a {
+    text-decoration:none;
+    color:rgb(252, 6, 129);
+    transition: 1s ease ;
+}
+
+h1 a:hover{
+    color:white;
+}
