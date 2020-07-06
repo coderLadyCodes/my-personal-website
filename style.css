@@ -15,26 +15,34 @@ body{
     color:rgb(252, 6, 129);
 }
 
-header{
-    background-image: url(pink.jpg);
+
+main{
+    background-image:url(keyboard.jpg) ;
     background-size: 100vh;
-    display:flex;
-    align-items: center;
-    justify-content:space-around;   
+    background-position-x: -190px;
+    height:100vh;
+    width:100vw;
+    background-repeat:no-repeat;
 }
 
+header{
+    display:flex;
+    justify-content:space-between;   
+}
+
+nav ul{
+   margin:1.5rem 2.5rem;
+}
 
 nav li{
-    display:inline-block;
     list-style:none;
-    font-size:0.5rem;
-    padding:0.5rem;
-    transition: 1s ease ;
+    font-size:0.9rem;
+   padding:3px;   
 }
 
-
 nav li:hover{
-    color:white;  
+    color:white;
+    transition: 1s ease;  
 }
 
 h1{
@@ -42,6 +50,7 @@ h1{
     font-weight: lighter;
     font-size: 2rem;
 }
+
 h1 a {
     text-decoration:none;
     color:rgb(252, 6, 129);
