@@ -25,7 +25,7 @@ body{
     
 }
  .section .me{
-    margin-top:25%;
+    margin-top:30%;
     line-height: 4vh;
     font-weight: bolder;
     text-align: center;
@@ -38,6 +38,7 @@ body{
     text-align: center;
     font-size: 9px;
     font-weight: lighter;
+    
 }
 
 
@@ -77,11 +78,12 @@ nav ul{
 nav li{
     list-style:none;
     font-size:0.9rem;
-    padding:3px;   
+    padding:3px; 
+    cursor:pointer;  
 }
 
 nav li:hover{
-    color:white;
+    color:rgb(231, 0, 252);
     font-weight: bold;
     transition: 0.5s ease;  
 }
@@ -97,12 +99,12 @@ header h1{
 
 header h1 a {
     text-decoration:none;
-    color:rgba(231, 0, 252, 0.4);
+    color:white;
     transition: 1s ease ;
 }
 
 header h1 a:hover{
-    color:white;
+    color:rgb(231, 0, 252);
     transition: 0.5s ease; 
 }
 
@@ -154,3 +156,103 @@ header h1 a:hover{
     color:rgb(231, 0, 252);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:450px){
+    header h1{
+        font-size: 4.5rem;
+        margin:1rem;
+    }
+
+    nav .humberger{
+        display:none;
+    }
+
+    nav ul{
+        display:flex;
+        flex-direction: row;
+        margin:1rem;
+        z-index:20;
+        color:white;
+    }
+
+    nav ul li{
+        padding:1rem;
+    }
+    header h1, nav {
+        display:flex;
+        align-items: baseline;
+    }
+
+    .section .me{
+        margin-top:35%;
+        letter-spacing:2px;
+        font-size:2.5rem;
+    }
+    .me p{
+        font-size: 0.9rem;
+        
+        line-height: 2vh;
+    }
+}
+
+
+
+@media (min-width:766px) {
+   .video div{
+        width:100vw;
+        height:100vh;
+        overflow:hidden;
+        object-fit:cover;   
+    }
+}
+
+@media (min-width:1330px){
+     .section .me{
+        margin-top: 30%;
+        font-size:5rem;
+        line-height:7rem;
+    }
+    .me p{
+        font-size: 2rem;
+        line-height:2rem;
+        letter-spacing: 3px;
+    }
+     header h1{
+         margin:2.5rem;
+         font-size: 5rem;
+     }
+    
+     .video {
+        
+        width:100vw;
+        overflow:hidden;
+    }
+
+    .ull li{
+        padding:3rem;
+        font-size: 2rem;
+    }
+}
