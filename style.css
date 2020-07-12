@@ -10,17 +10,17 @@
 
 body{
     font-family: 'Poiret One', cursive; 
-    background-color: rgba(255, 0, 255, 0.2); 
+    background-color: rgba(245, 14, 245, 0.212); 
 }
 
                      /* FRONT PAGE  => THE HOME SECTION */
 
 .front{
     position:relative;
-    height:100vh;
-    width:100vw;
+    height:100%;
+    width:100%;
     display:flex;
-    flex-direction: row;;
+    flex-direction: row;
     justify-content: center; 
     align-items:flex-start;
     
@@ -45,13 +45,13 @@ body{
 
 .front .video{
     position:absolute;
-    top:0;
+    top:0; 
     left:0;
     object-fit: cover;
     overflow:hidden;
 }
 
-.front:after{
+.front .video:after{
     content:'';
     position:absolute;
     top:0;
@@ -161,20 +161,46 @@ header h1 a:hover{
 }
 
                      /* THE ABOUT SECTION */
-
-#about{
-    display:flex;
-    flex-direction:column;
-    width:100vw;
-    height:100vh;
-    
+#about{ 
+   display:flex;
+   width:100vw;
+   height:100vh;
 }
 
 .aboutarea{
-    display:flex;
-    
+   display:flex;
+   flex-direction:column-reverse;
+   margin-top:4.5rem;
 }
 
+.abouttext{
+    text-align:center;
+    font-weight: bold;
+    color:purple;
+}
+
+.abouttext h1{
+    font-size:1.5rem;
+    color:rgb(231, 0, 252);
+    padding:1rem;
+    letter-spacing: 2px;
+}
+
+.abouttext p{
+    font-size: 9px;
+    padding:1rem;
+    letter-spacing:1px;
+}
+
+.aboutimage{
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    margin-top:2.5rem;
+}
+                     
+                     
 
 
 
@@ -238,7 +264,7 @@ header h1 a:hover{
             font-size: 0.9rem;
             
         }
-    }
+        
 
    .video div{
         width:100vw;
@@ -246,6 +272,23 @@ header h1 a:hover{
         overflow:hidden;
         object-fit:cover;   
     }
+
+                 /* ABOUT SECTION*/
+        
+    .abouttext{
+        margin:3rem;
+             }
+     .abouttext h1{
+         font-size:2.5rem;
+         padding:2rem;
+     }
+     .abouttext p{
+         font-size:1rem;
+         padding:2rem;
+         letter-spacing:2px;
+         line-height: 2rem;;
+     }
+}
     
                      /* FOR IPAD PRO */
 
@@ -278,7 +321,18 @@ header h1 a:hover{
         overflow:hidden;
         object-fit: cover; 
     }
-
+                      /* ABOUT SECTION*/
+    .abouttext{
+        margin-top: 5rem;
+    }
+    .abouttext h1{
+        font-size:4rem;
+    }
+    .abouttext p{
+       font-size:1.5rem;
+       padding:3rem;
+}
+    
 }
 
                      /* FOR LARGER SCREENS */
@@ -309,6 +363,23 @@ header h1 a:hover{
     .me p{
         line-height:3rem;
         font-size: 2.5rem;
+    }
+                      /* ABOUT SECTION*/
+    #about{
+        width:100vw;
+        height:100vh;
+    }
+    .aboutarea{
+        display:flex;
+        
+        align-items:center;
+        justify-content: center;
+    }
+    .abouttext{
+        
+    }
+    .aboutimage{
+        
     }
 
 }
