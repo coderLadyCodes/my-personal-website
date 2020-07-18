@@ -37,7 +37,7 @@ body{
 .me p{
     line-height: normal;
     text-align: center;
-    font-size: 9px;
+    font-size: 10px;
     font-weight: lighter;
     
 }
@@ -81,8 +81,8 @@ nav ul{
 
 nav li{
     list-style:none;
-    font-size:0.5rem;
-    padding:3px; 
+    font-size:0.7rem;
+    padding:4px; 
     cursor:pointer;  
 }
 
@@ -103,7 +103,7 @@ header h1{
 
 header h1 a {
     text-decoration:none;
-    color:white;
+    color:#fff;
     transition: 1s ease ;
 }
 
@@ -140,7 +140,7 @@ header h1 a:hover{
 /* the toggle class */
 
 .change .line1 ,.change .line2 ,.change .line3{
-     background-color:white;
+     background-color:#fff;
 }
 
 .change .line1{
@@ -157,48 +157,47 @@ header h1 a:hover{
 
 .change{
     display:block;
-    color:white;
+    color:#fff;
 }
 
                      /* THE ABOUT SECTION */
-#about{ 
-   display:flex;
-   width:100vw;
-   height:100vh;
-}
-
-.aboutarea{
-   display:flex;
-   flex-direction:column-reverse;
-   margin-top:4.5rem;
+#about {
+    background-image: url(keyboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
 }
 
 .abouttext{
     text-align:center;
     font-weight: bold;
-    color:purple;
+    color:#fff;
+    margin-top:50%;
+    
 }
 
 .abouttext h1{
     font-size:1.5rem;
-    color:rgb(231, 0, 252);
-    padding:1rem;
+    color:#fff;
+    padding:1.5rem;
     letter-spacing: 2px;
+    background-color: rgba(245, 14, 245, 0.212);
+    border-radius: 5rem;
+    margin:5rem;
 }
 
 .abouttext p{
-    font-size: 9px;
-    padding:1rem;
+    background-color: rgba(245, 14, 245, 0.212);
+    border-radius:5rem;
+    font-size: 10px;
+    padding:2rem;
+    margin:2rem;
     letter-spacing:1px;
 }
 
-.aboutimage{
-    background-size: cover;
-    width:100vw;
-    height:100vh;
-    overflow:hidden;
-    margin-top:2.5rem;
-}
+
                      
                      
 
@@ -227,9 +226,7 @@ header h1 a:hover{
 
 
 
-
-
-                      /* FOR IPAD */
+                      /* FOR IPAD*/
 
 @media (min-width:768px) {
     nav .humberger{
@@ -274,20 +271,21 @@ header h1 a:hover{
     }
 
                  /* ABOUT SECTION*/
-        
+       
     .abouttext{
-        margin:3rem;
+        margin-top:50%;
              }
      .abouttext h1{
          font-size:2.5rem;
-         padding:2rem;
+         padding:1rem;
+         margin:10rem;
      }
      .abouttext p{
          font-size:1rem;
          padding:2rem;
          letter-spacing:2px;
-         line-height: 2rem;;
-     }
+         line-height: 2rem;
+     } 
 }
     
                      /* FOR IPAD PRO */
@@ -322,8 +320,9 @@ header h1 a:hover{
         object-fit: cover; 
     }
                       /* ABOUT SECTION*/
+                      
     .abouttext{
-        margin-top: 5rem;
+        margin-top: 50%;
     }
     .abouttext h1{
         font-size:4rem;
@@ -364,28 +363,21 @@ header h1 a:hover{
         line-height:3rem;
         font-size: 2.5rem;
     }
-                    /* ABOUT SECTION*/
-                    
+                    /* ABOUT SECTION  */
+                   
     #about{
-        width: 100vw;
-        height:100vh;
-        margin-top:10%;
+        width: 100%;
+        height:100%;
     }
-    .aboutarea{
-        display:flex;
-        flex-direction: row;
-        align-items:center;
-        justify-content: center;
-        width:100vw;
-        height:100vh;
-    }
+  
     .abouttext{
-        text-align: center;
-        width:40%;
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+       ;
     }
-    .aboutimage{
-        padding:15rem;
-        width:40%;
+    .abouttext h1{
+       line-height:9rem;
+      
     }
-
 }
