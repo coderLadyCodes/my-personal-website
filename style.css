@@ -369,10 +369,6 @@ header h1 a:hover{
         height:100%;
         width:100vw;
         overflow:hidden;
-        position:relative;
-        top:15vh;
-        right:0;
-        overflow:hidden;
     }
   
     .abouttext{
@@ -381,13 +377,9 @@ header h1 a:hover{
        overflow:hidden;
     }
     .abouttext h1{
-        position:absolute;
-        top:25%;
-        right:40%;
+        
     }
     .abouttext p{
-        position:absolute;
-        top:50%;
         
     }
 }
