@@ -162,7 +162,7 @@ header h1 a:hover{
 
                      /* THE ABOUT SECTION */
 #about {
-    background-image: url(keyboard2.jpg);
+    background-image: url(keyboard.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width:100vw;
@@ -375,19 +375,24 @@ header h1 a:hover{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        
+        overflow:hidden;
     }
 
   
     .abouttext{
-        margin:0;
-        padding:0;  
+        width:50%;
+        height:100vh;
+        margin-top:15%;
+        overflow:hidden;
     }
     .abouttext h1{
-       margin-left:15em;
-       margin-right:15em;
+     margin-left:20%;
+     margin-right:20%;
+     font-size:5rem;
     }
     .abouttext p{
-        margin:10em;
+        margin-bottom:5.5rem;
+        line-height:5vh;
+        font-size:2rem;
     }
 }
