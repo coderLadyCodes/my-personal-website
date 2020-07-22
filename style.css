@@ -11,6 +11,7 @@
 body{
     font-family: 'Poiret One', cursive; 
     background-color: rgba(245, 14, 245, 0.212); 
+    overflow-x:hidden;
 }
 
                      /* FRONT PAGE  => THE HOME SECTION */
@@ -389,10 +390,12 @@ header h1 a:hover{
      margin-left:20%;
      margin-right:20%;
      font-size:5rem;
+     
     }
     .abouttext p{
         margin-bottom:5.5rem;
         line-height:5vh;
         font-size:2rem;
+        border-radius:50rem;
     }
-}
+}    
