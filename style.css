@@ -210,6 +210,26 @@ header h1 a:hover{
     justify-content: space-around;
 }
 
+
+#portfolio h1{
+    color:#fff;
+    text-shadow: 2px 2px #f507e9;
+}
+
+#portfolio .project{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:80%;
+    height:25%;
+    border-radius:6rem;
+    border:1px solid purple;
+}
+
+#portfolio .project a{
+    text-decoration: none;
+    cursor: pointer;
+}
                      
                      
 
