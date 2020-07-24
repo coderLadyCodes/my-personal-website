@@ -10,7 +10,7 @@
 
 body{
     font-family: 'Poiret One', cursive; 
-    background-color: rgba(245, 14, 245, 0.212); 
+    background-color: rgb(149, 29, 153); 
     overflow-x:hidden;
 }
 
@@ -223,15 +223,47 @@ header h1 a:hover{
     width:80%;
     height:25%;
     border-radius:6rem;
-    border:1px solid purple;
+    border:1px solid #fff;
+    opacity:0.8;
 }
+
 
 #portfolio .project a{
     text-decoration: none;
     cursor: pointer;
+    color:pink;
+    font-size:1rem;
+    border:1px solid pink;
+    border-radius:3rem;
+    padding:6px;
 }
-                     
-                     
+
+#portfolio .project a:hover{
+    background-color: rgba(245, 14, 245, 0.212);
+    color:#fff;
+}
+
+#portfolio .one{
+    background-image: url(firstprojectsmall.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+}
+
+#portfolio .two{
+    background-image: url(secondprojectsmall.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+}
+
+
+#portfolio .three{
+    background-image: url(thirdprojectsmall.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+}                   
 
 
 
