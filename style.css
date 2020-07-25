@@ -10,7 +10,6 @@
 
 body{
     font-family: 'Poiret One', cursive; 
-    background-color: rgb(149, 29, 153); 
     overflow-x:hidden;
 }
 
@@ -208,12 +207,15 @@ header h1 a:hover{
     flex-direction:column;
     align-items:center;
     justify-content: space-around;
+    /*background: linear-gradient(to top, #ff00ff 0%, #660066 100%);*/
+    background: linear-gradient(to top, #ff00ff 30%, #660066 68%);
 }
 
 
 #portfolio h1{
     color:#fff;
-    text-shadow: 2px 2px #f507e9;
+    text-shadow: 3px 3px #070707;
+    letter-spacing:3px;
 }
 
 #portfolio .project{
@@ -231,7 +233,8 @@ header h1 a:hover{
 #portfolio .project a{
     text-decoration: none;
     cursor: pointer;
-    color:pink;
+    color:#fff;
+    background-color:rgba(255, 255, 255, 0.315);
     font-size:1rem;
     border:1px solid pink;
     border-radius:3rem;
@@ -240,7 +243,7 @@ header h1 a:hover{
 
 #portfolio .project a:hover{
     background-color: rgba(245, 14, 245, 0.212);
-    color:#fff;
+    color:pink;
 }
 
 #portfolio .one{
@@ -334,7 +337,7 @@ header h1 a:hover{
         object-fit:cover;   
     }
 
-                 /* ABOUT SECTION*/
+                     /* ABOUT SECTION*/
        
     .abouttext{
         margin-top:50%;
@@ -350,9 +353,24 @@ header h1 a:hover{
          letter-spacing:2px;
          line-height: 2rem;
      } 
+
+                       /* PORTFOLIO SECTION */
+    #portfolio h1{
+        font-size:4rem;
+        text-shadow: 5px 5px #070707;
+    }
+
+    #portfolio .project{
+         width:60%;
+         height:20%;
+    }
+    #portfolio .project a{
+        font-size:1.7rem;
+    }
+    
 }
     
-                     /* FOR IPAD PRO */
+                       /* FOR IPAD PRO */
 
 @media (min-width:1024px){
 
@@ -395,6 +413,8 @@ header h1 a:hover{
        font-size:1.5rem;
        padding:3rem;
 }
+                       /* PORTFOLIO SECTION */
+
     
 }
 
@@ -459,5 +479,25 @@ header h1 a:hover{
         line-height:5vh;
         font-size:2rem;
         border-radius:50rem;
+    }
+                     /* PORTFOLIO SECTION */
+
+    #portfolio{
+        position:absolute;
+        top:200vh;
+        width:100vw;
+        height:100vh;
+    }
+
+    #portfolio h1{
+        font-size:6rem;
+        letter-spacing:6px;
+        text-shadow: 6px 6px #070707;
+    }
+
+    #portfolio .project{
+        width:25%;
+        height:25%;
+        border-radius:50%;
     }
 }    
