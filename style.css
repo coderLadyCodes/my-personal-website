@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Parisienne&family=Poiret+One&display=swap');
+
+
 *{
     margin:0;
     padding:0;
@@ -266,9 +268,14 @@ header h1 a:hover{
     background-repeat:no-repeat ;
     background-size: cover;
     
-}                   
+}        
 
 
+                     /* THE CONTACT SECTION */
+
+#contact{
+    
+}
 
 
 
