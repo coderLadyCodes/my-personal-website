@@ -274,7 +274,9 @@ header h1 a:hover{
                      /* THE CONTACT SECTION */
 
 #contact{
-    
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(to bottom, #ff00ff 30%, #660066 68%);
 }
 
 
