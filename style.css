@@ -521,6 +521,30 @@ header h1 a:hover{
 }
                        /* PORTFOLIO SECTION */
 
+                       /* CONTACT SECTION */
+
+    #contact h3{
+        font-size:3rem;
+        margin:3rem;
+    }                   
+
+   #contact #email, #subject{
+       margin-top:2.5rem;
+       height:2.5rem;
+       font-size:1.5rem;
+       border-radius:10px;
+   }
+
+   #contact textarea{
+       font-size:1.5rem;
+       border-radius:10px;
+   }
+
+   #contact #submit{
+       height:3rem;
+       font-size: 1.5rem;
+   }
+
     
 }
 
@@ -606,4 +630,23 @@ header h1 a:hover{
         height:25%;
         border-radius:50%;
     }
+
+
+                      /* CONTACT SECTION */
+  
+    #contact{
+        width:100vw;
+        height:100vh;
+        position:absolute;
+        top:300vh;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+    }
+
+    #contact .information, .contactform{
+        width:60%;
+    }
+    
 }    
