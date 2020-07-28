@@ -339,26 +339,8 @@ header h1 a:hover{
     background:linear-gradient(to right, #ff00ff 30%, #660066 75%);
     cursor: pointer;
     color:#fff;
+    margin-left:30%;
 }
-
-#contact #submit:hover{
-    background-color: #fff;
-    color:purple;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -442,6 +424,55 @@ header h1 a:hover{
     #portfolio .project a{
         font-size:1.7rem;
     }
+
+                     /* CONTACT SECTION */
+
+    #contact h1{
+        font-size:4rem;
+        text-shadow: 5px 5px #070707;
+        padding:2rem;
+    }
+
+    #contact .information, .contactform{
+           width:90%;
+           margin:1.5rem 2.3rem;
+    }     
+    
+    #contact h3{
+          font-size:2rem; 
+    }
+
+    #contact i{
+        font-size:1.5rem;
+        margin:1.3rem 2.5rem;
+    }
+
+    #contact p{
+        font-size:1.5rem;
+    }
+
+    .contactform #email, #subject{
+        width:34%;
+        height:1.5rem;
+    }
+
+    #contact .contactform #email{
+        margin-left:15%;
+    }
+
+    #contact .contactform #message{
+        width:70%;
+        height:70%;
+        margin-left:15%;
+    }
+
+    #contact #submit{
+       margin-left:39%;
+       width:25%;
+       height:2rem;
+    }
+
+    
     
 }
     
