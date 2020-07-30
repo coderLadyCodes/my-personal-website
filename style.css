@@ -718,5 +718,9 @@ footer p{
         width:30%;
         height:25%;
     }
-                     /* FOOTER */
+       
+    #contact #submit{
+        margin-bottom:10px;
+    }
+    /* FOOTER */
 }
