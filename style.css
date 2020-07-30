@@ -710,8 +710,8 @@ footer p{
         line-height:1vh;
     }
 
-    #contact .information i, p{
-        margin-bottom:10px;
+    #contact .information, i, p{
+        margin-bottom:1rem;
         margin-left:2rem;
     }
 
