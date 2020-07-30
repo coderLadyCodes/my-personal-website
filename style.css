@@ -701,7 +701,7 @@ footer p{
 
     #contact .information, .contactform{
         width:60%;
-        height:50%;
+        height:40%;
     }
 
     #contact .information h3{
@@ -716,11 +716,8 @@ footer p{
 
     #contact #message{
         width:30%;
-        height:25%;
+        height:10%;
     }
        
-    #contact #submit{
-        margin-bottom:2rem;
-    }
     /* FOOTER */
 }
