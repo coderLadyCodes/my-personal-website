@@ -706,11 +706,15 @@ footer p{
 
     #contact .information h3{
         
-        padding:5px;
-        line-height:2vh;
+        padding:2px;
+        line-height:1vh;
     }
 
-    #contact #email, #subject, #message, #submit{
+    #contact .information i, p{
+        margin-bottom:5px;
+    }
+
+    #contact #message{
         width:30%;
         height:25%;
     }
