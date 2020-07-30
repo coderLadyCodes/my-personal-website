@@ -710,8 +710,12 @@ footer p{
         line-height:0.9vh;
     }
 
-    #contact i, p{
+    #contact p{
         margin-bottom:1rem;
+        margin-left:2rem;
+    }
+
+    #contact i{
         margin-left:2rem;
     }
 
