@@ -707,10 +707,10 @@ footer p{
     #contact .information h3{
         
         padding:0;
-        line-height:1vh;
+        line-height:0.9vh;
     }
 
-    #contact .information, i, p{
+    #contact i, p{
         margin-bottom:1rem;
         margin-left:2rem;
     }
