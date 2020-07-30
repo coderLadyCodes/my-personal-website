@@ -710,14 +710,11 @@ footer p{
         line-height:0.9vh;
     }
 
-    #contact p{
+    #contact i{
         margin-bottom:1rem;
         margin-left:2rem;
     }
 
-    #contact i{
-        margin-left:2rem;
-    }
 
     #contact #email, #subject{
         margin-top:5px;
