@@ -725,5 +725,13 @@ footer p{
         height:10%;
     }
        
-    /* FOOTER */
+                       /* FOOTER */
+
+   footer{
+       width:100vw;
+       height:10vh;
+       position:absolute;
+       bottom:0;
+   }
+
 }
