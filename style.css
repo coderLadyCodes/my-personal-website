@@ -569,7 +569,7 @@ footer p{
     }                   
 
    #contact #email, #subject{
-       margin-top:2.5rem;
+       margin-top:3.5rem;
        height:2.5rem;
        font-size:1.5rem;
        border-radius:10px;
@@ -583,6 +583,7 @@ footer p{
    #contact #submit{
        height:3rem;
        font-size: 1.5rem;
+       margin:0;
    }
 
                      /* FOOTER */
