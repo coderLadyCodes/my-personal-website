@@ -282,17 +282,17 @@ header h1 a:hover{
     text-align:center;
     color:#fff;
     text-shadow: 3px 3px #070707;
-    padding:3rem;
+    padding:2.5rem;
     letter-spacing:2px;
 }
 
 #contact .information , .contactform{
     height:40%;
-    width:80%;
+    width:85%;
     background-color: rgba(255, 255, 255, 0.39);
-    margin:2rem;
+    margin:1rem;
     border-radius:3rem;
-    padding:2rem;
+    padding:1.5rem;
 }
 
 #contact .information h3{
@@ -323,7 +323,7 @@ header h1 a:hover{
 }
 
 #contact #message{
-    width:16rem;
+    width:13rem;
     height:6rem;
     border:none;
     border-radius:5px;
