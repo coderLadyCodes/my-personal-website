@@ -345,7 +345,7 @@ header h1 a:hover{
 footer{
     
     width:100vw;
-    height:8%;
+    height:6%;
     background:linear-gradient(to bottom, #660066 30%, #410241 70%);
 }
 
@@ -726,7 +726,16 @@ footer p{
     }
        
                        /* FOOTER */
+    footer{
+        width:100vw;
+        height:10vh;
+    }
 
-   
+    footer .icons{
+        font-size:1rem;
+    }
+    footer p{
+        font-size:1rem;
+    }
 
 }
