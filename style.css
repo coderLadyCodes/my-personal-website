@@ -287,7 +287,7 @@ header h1 a:hover{
 }
 
 #contact .information , .contactform{
-    height:40%;
+    height:35%;
     width:85%;
     background-color: rgba(255, 255, 255, 0.39);
     margin:1rem;
@@ -727,6 +727,8 @@ footer p{
        
                        /* FOOTER */
     footer{
+        position:absolute;
+        top:410vh;
         width:100vw;
         height:10vh;
     }
