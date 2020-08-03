@@ -659,7 +659,7 @@ footer p{
      
     }
     .abouttext p{
-        margin-bottom:5%;
+        padding-bottom:5%;
         line-height:5vh;
         font-size:2rem;
         border-radius:50rem;
