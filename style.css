@@ -649,7 +649,7 @@ footer p{
     .abouttext{
         width:50%;
         height:100vh;
-    
+        margin-bottom:5rem;
         overflow:hidden;
     }
     .abouttext h1{
