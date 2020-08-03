@@ -299,7 +299,7 @@ header h1 a:hover{
     text-align:center;
     color:purple;
     letter-spacing:2px;
-    padding:1rem;
+    padding:0.9rem;
     line-height:3vh;
 }
 
@@ -313,7 +313,7 @@ header h1 a:hover{
     font-size:12px;
     color:#fff;
     text-align:center;
-    line-height:5vh;
+    line-height:4vh;
 }
 
 #contact #email, #subject{
@@ -327,7 +327,7 @@ header h1 a:hover{
     height:6rem;
     border:none;
     border-radius:5px;
-    margin:5px;
+    margin:1rem;
 }
 
 #contact #submit{
