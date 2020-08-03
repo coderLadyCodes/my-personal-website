@@ -640,8 +640,8 @@ footer p{
         width:100vw;
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         overflow:hidden;
     }
 
