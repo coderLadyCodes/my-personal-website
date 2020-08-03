@@ -649,7 +649,7 @@ footer p{
     .abouttext{
         width:50%;
         height:100vh;
-        margin-top:4%;
+        margin-top:2rem;
         overflow:hidden;
     }
     .abouttext h1{
@@ -659,8 +659,8 @@ footer p{
      
     }
     .abouttext p{
-        margin-bottom:7rem;
-        line-height:5vh;
+        margin-bottom:9rem;
+        line-height:4vh;
         font-size:2rem;
         border-radius:50rem;
     }
