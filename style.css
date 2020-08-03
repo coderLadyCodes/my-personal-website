@@ -650,6 +650,7 @@ footer p{
         width:60%;
         height:60%;
         overflow:hidden;
+        padding:6rem;
     }
     .abouttext h1{
      margin-left:20%;
@@ -658,7 +659,7 @@ footer p{
      
     }
     .abouttext p{
-        
+
         line-height:5vh;
         font-size:2rem;
         border-radius:50rem;
