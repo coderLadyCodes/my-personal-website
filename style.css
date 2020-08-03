@@ -324,7 +324,7 @@ header h1 a:hover{
 
 #contact #message{
     width:12rem;
-    height:4rem;
+    height:4.5rem;
     border:none;
     border-radius:5px;
     margin:5px;
@@ -728,7 +728,7 @@ footer p{
                        /* FOOTER */
     footer{
         position:absolute;
-        top:410vh;
+        top:400vh;
         width:100vw;
         height:10vh;
     }
