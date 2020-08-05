@@ -649,10 +649,12 @@ footer p{
         flex-direction:column;
         justify-content: center;
         align-items: center;
+        margin-top:0;
+        margin-bottom: 8rem;
     }
     .abouttext h1{
          
-        font-size:4rem;
+        font-size:3rem;
      
     }
     .abouttext p{
