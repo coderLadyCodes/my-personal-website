@@ -565,6 +565,7 @@ footer p{
                        /* CONTACT SECTION */
     #contact{
         padding:1rem;
+        z-index:20;
     }                   
     #contact h1{
        padding:2.5rem;
