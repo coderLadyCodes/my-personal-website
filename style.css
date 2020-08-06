@@ -323,7 +323,7 @@ header h1 a:hover{
 }
 
 #contact #message{
-    width:13rem;
+    width:12rem;
     height:4.5rem;
     border:none;
     border-radius:5px;
@@ -489,7 +489,7 @@ footer p{
     }
 
     #contact .contactform #message{
-        width:70%;
+        width:60%;
         height:70%;
         margin-left:15%;
     }
