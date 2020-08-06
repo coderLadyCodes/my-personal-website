@@ -299,8 +299,8 @@ header h1 a:hover{
     text-align:center;
     color:purple;
     letter-spacing:2px;
-    padding:0.9rem;
-    line-height:3vh;
+    padding:0.5rem;
+    line-height:2vh;
 }
 
 #contact i{
@@ -313,7 +313,7 @@ header h1 a:hover{
     font-size:10px;
     color:#fff;
     text-align:center;
-    line-height:2vh;
+    line-height:1.5vh;
 }
 
 #contact #email, #subject{
@@ -333,7 +333,7 @@ header h1 a:hover{
 #contact #submit{
     border:none;
     border-radius:20px;
-    width:5rem;
+    width:7rem;
     height:1.5rem;
     background:linear-gradient(to right, #ff00ff 30%, #660066 75%);
     cursor: pointer;
