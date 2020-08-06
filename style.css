@@ -323,7 +323,7 @@ header h1 a:hover{
 }
 
 #contact #message{
-    width:12rem;
+    width:13rem;
     height:4.5rem;
     border:none;
     border-radius:5px;
@@ -338,6 +338,7 @@ header h1 a:hover{
     background:linear-gradient(to right, #ff00ff 30%, #660066 75%);
     cursor: pointer;
     color:#fff;
+    margin-left:0;
 }
 
                       /* FOOTER */
