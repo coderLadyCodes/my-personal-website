@@ -304,7 +304,7 @@ header h1 a:hover{
 }
 
 #contact i{
-    font-size:12px;
+    font-size:10px;
     color:purple;
 }
 
@@ -327,18 +327,18 @@ header h1 a:hover{
     height:4.5rem;
     border:none;
     border-radius:5px;
-    margin:5px;
+    margin:3px;
 }
 
 #contact #submit{
     border:none;
     border-radius:20px;
-    width:6rem;
-    height:2rem;
+    width:5rem;
+    height:1.5rem;
     background:linear-gradient(to right, #ff00ff 30%, #660066 75%);
     cursor: pointer;
     color:#fff;
-    margin-left:0;
+    margin:0;
 }
 
                       /* FOOTER */
