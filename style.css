@@ -562,10 +562,12 @@ footer p{
                        /* PORTFOLIO SECTION */
 
                        /* CONTACT SECTION */
-
+    #contact h1{
+       padding:1rem;
+    }
     #contact h3{
         font-size:3rem;
-        margin:3rem;
+        margin:1.9rem;
     }                   
 
    #contact #email, #subject{
