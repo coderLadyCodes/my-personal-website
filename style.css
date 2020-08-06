@@ -462,20 +462,20 @@ footer p{
 
     #contact .information, .contactform{
            width:90%;
-           margin:1.5rem 2.3rem;
+           margin:1rem 2rem;
     }     
     
     #contact h3{
-          font-size:2rem; 
+          font-size:1.7rem; 
     }
 
     #contact i{
-        font-size:1.5rem;
-        margin:1.3rem 2.5rem;
+        font-size:1rem;
+        margin:0.9rem 1.5rem;
     }
 
     #contact p{
-        font-size:1.5rem;
+        font-size:1rem;
     }
 
     .contactform #email, #subject{
