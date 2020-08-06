@@ -735,7 +735,7 @@ footer p{
     }
 
     #contact #submit{
-        margin:0;
+        display:inline;
     }
        
                        /* FOOTER */
