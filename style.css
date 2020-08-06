@@ -716,7 +716,7 @@ footer p{
     #contact .information h3{
         
         padding:0;
-        line-height:0.9vh;
+        line-height:1vh;
     }
 
     #contact i{
@@ -728,6 +728,7 @@ footer p{
     #contact #email, #subject{
         margin-top:5px;
         width:12%;
+        padding:3px
     }
 
     #contact #message{
@@ -736,7 +737,7 @@ footer p{
     }
 
    #contact #submit{
-       margin-left:5rem;
+       margin-left:10rem;
    }
        
                        /* FOOTER */
