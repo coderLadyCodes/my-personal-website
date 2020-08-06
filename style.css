@@ -338,7 +338,7 @@ header h1 a:hover{
     background:linear-gradient(to right, #ff00ff 30%, #660066 75%);
     cursor: pointer;
     color:#fff;
-    margin-left:0;
+    
 }
 
                       /* FOOTER */
@@ -480,7 +480,7 @@ footer p{
     }
 
     .contactform #email, #subject{
-        width:34%;
+        width:30%;
         height:1.5rem;
     }
 
