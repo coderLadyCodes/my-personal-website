@@ -727,6 +727,7 @@ footer p{
 
     #contact #email, #subject{
         margin-top:5px;
+        width:10%;
     }
 
     #contact #message{
