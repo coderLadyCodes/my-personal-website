@@ -320,6 +320,7 @@ header h1 a:hover{
     border:none;
     border-radius:5px;
     margin:5px;
+    width:1.5rem;
 }
 
 #contact #message{
@@ -731,6 +732,10 @@ footer p{
     #contact #message{
         width:30%;
         height:10%;
+    }
+
+    #contact #submit{
+        margin:0;
     }
        
                        /* FOOTER */
