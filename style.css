@@ -379,6 +379,13 @@ footer p{
 
 
 
+                      /* FOR SMALLER SCREENS*/
+
+@media (min-width:450px) {
+    #contact #submit{
+        margin-left:0;
+    }
+}
                       /* FOR IPAD*/
 
 @media (min-width:768px) {
