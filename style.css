@@ -393,8 +393,8 @@ footer p{
 }
 
 @media (min-width:537px) {
-    #contact #message{
-            margin-left:0;
+    #contact #email, #subject{
+            margin-top:10px;
     }
 }
 
