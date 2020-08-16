@@ -387,7 +387,8 @@ footer p{
 
 @media (min-width:450px) {
     #contact #submit{
-        display:inline-block;
+        display:block;
+
     }
 }
                       /* FOR IPAD*/
