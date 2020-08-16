@@ -393,8 +393,8 @@ footer p{
 }
 
 @media (min-width:537px) {
-    #contact textarea{
-            margin-top:10rem;
+    #contact #message{
+            margin-top:25rem;
     }
 }
 
