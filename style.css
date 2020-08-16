@@ -394,7 +394,7 @@ footer p{
 
 @media (min-width:537px) {
     #contact #message{
-            margin-top:25rem;
+            margin-left:0;
     }
 }
 
