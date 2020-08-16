@@ -391,6 +391,13 @@ footer p{
 
     }
 }
+
+@media (min-width:537px) {
+    #contact .contactform{
+            margin-left:10rem;
+    }
+}
+
                       /* FOR IPAD*/
 
 @media (min-width:768px) {
