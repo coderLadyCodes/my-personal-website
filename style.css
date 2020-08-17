@@ -398,6 +398,7 @@ footer p{
     }
      #contact #message{
          margin-top:1rem;
+         margin-left:0;
      }
 }
 
