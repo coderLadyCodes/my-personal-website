@@ -1,3 +1,5 @@
+
+// NAV MENU
 const menu = document.querySelector('.menu');
 const ul = document.querySelector('.ull');
 
@@ -7,3 +9,11 @@ menu.addEventListener('click', () => {
     ul.classList.toggle('change');
 });
 
+
+
+// SUBMIT CONTACT FORM
+const contactForm = document.querySelector(".contactform");
+
+contactForm.addEventListener("submit", (e) => {
+       e.preventDefault();
+})
