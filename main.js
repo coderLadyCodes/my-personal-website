@@ -10,7 +10,7 @@ menu.addEventListener('click', () => {
 });
 
 
-/*
+
 // SUBMIT CONTACT FORM
 const contactForm = document.querySelector(".contactform");
 
@@ -18,4 +18,3 @@ contactForm.addEventListener('submit', function (e) {
 
     e.preventDefault();
 });
-*/
